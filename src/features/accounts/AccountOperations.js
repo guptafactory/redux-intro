@@ -11,7 +11,6 @@ function AccountOperations() {
 
   const dispatch = useDispatch();
   const {
-    balance,
     loan: currentLoan,
     loanPurpose: currLoanPurpose,
     isLoading,
